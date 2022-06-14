@@ -65,6 +65,7 @@ h1{
 #aboutMeLocation{
     margin-top: 0px;
     opacity: 0.8;
+    margin-bottom: 50px;
 
 }
 #profile-pic{
@@ -74,14 +75,7 @@ h1{
 #aboutMeContactMe{
     margin-top: 100px;
 }
-#profile-pic{
-    border-radius: 30px;
-    border: 1px solid whitesmoke;
-    box-shadow: 2px;
-    margin-top: 10px;
-    padding: 2px;
-    margin-bottom: 5px;
-}
+
 #aboutMeContactMe{
     margin-top: 20px;
 }
@@ -91,3 +85,27 @@ h1{
 #aboutMeContactMe a{
     text-decoration: none;
 }
+
+#selfIntroductionParagraph{
+    
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-evenly;
+    max-width: 750px;
+   
+   
+    
+
+}
+#selfIntroductionParagraphOne,#selfIntroductionParagraphTwo{
+    text-align:justify;
+    border: 1px solid whitesmoke;
+    background-color:rgb(213, 222, 241);
+    border-radius: 4px;
+    padding:15px 30px;
+    text-align:center;
+    
+}
+
+
+
