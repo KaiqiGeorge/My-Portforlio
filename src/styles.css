@@ -25,7 +25,7 @@ h1{
     text-align: center;
 }
 
-#contactMe{
+.contactMe{
     text-decoration: none;
     border-radius: var(--border-radius);
     border:var(--border);
@@ -34,7 +34,7 @@ h1{
     margin: 4px;
     color:white;
 }
-#aboutMe{
+.aboutMe{
     text-decoration: none;
     border-radius: var(--border-radius);
     border:var(--border);
@@ -42,4 +42,52 @@ h1{
     padding: 5px;
     margin: 4px;
     padding: 10px 4px;
+}
+
+.container-fluid{
+    text-align: center;
+    margin-top: 50px;
+}
+#backToHomepage{
+    text-decoration: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+#aboutMe{
+    font-size: 75px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+   
+
+}
+#aboutMeLocation{
+    margin-top: 0px;
+    opacity: 0.8;
+
+}
+#profile-pic{
+    width: 300px;
+    text-align:center ;
+}
+#aboutMeContactMe{
+    margin-top: 100px;
+}
+#profile-pic{
+    border-radius: 30px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px;
+    margin-top: 10px;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+#aboutMeContactMe{
+    margin-top: 20px;
+}
+#aboutMeContactMe span{
+    font-size: 35px;
+}
+#aboutMeContactMe a{
+    text-decoration: none;
 }
