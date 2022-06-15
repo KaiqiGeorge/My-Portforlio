@@ -106,6 +106,24 @@ h1{
     text-align:center;
     
 }
+nav{
+   margin-top: -100px;
+
+}
+.navbar-brand{
+    padding-left: 50px;
+}
+.navbar-toggler-icon{
+    display:inline-flexbox;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 100%;
+    
+}
+
 
 
 
