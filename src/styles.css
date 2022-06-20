@@ -5,6 +5,7 @@
     --border: 1px solid rgba(11, 77, 219, 0.687);
 
 }
+
 h1{
     padding-top: 55px;
     text-align: center;
@@ -69,22 +70,7 @@ h1{
 }
 
 
-#contactMeWays{
-    position: relative;
-    list-style: none;
-    text-align: left;
-    line-height: 2.5;
-    opacity: 0.9;  
-    padding: 0;
-    margin: 0;
-}
-#about{
-    text-align: left;
-    margin-right: 30px;
-}
-#contactMeWays img{
-  width: 50px; 
-}
+
 nav{
     margin-top: -100px;
    
@@ -141,6 +127,50 @@ nav{
     float: right;
 }
 
+#weatherApp img{
+    text-align: left;
+    float: left;
+}
+
+#weatherAppProjectsDescription{
+    text-align: left;
+    float: right;
+    max-width: 350px;
+    margin-top: 12px;
+}
+#weatherAppImg{
+    text-align: left !important;
+    float:left!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact me page*/
+#contactMeWays{
+    position: relative;
+    list-style: none;
+    text-align: left;
+    line-height: 2.5;
+    opacity: 0.9;  
+    padding: 0;
+    margin: 0;
+}
+#about{
+    text-align: left;
+    margin-right: 30px;
+}
+#contactMeWays img{
+  width: 50px; 
+}
 
 
 
