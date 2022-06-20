@@ -3,7 +3,6 @@
     --primary-color:rgba(11, 77, 219, 0.687);
     --box-shadow: rgba(37, 39, 89, .08) 0px 8px 8px 0;
     --border: 1px solid rgba(11, 77, 219, 0.687);
-    --border-radius: 4px;
 
 }
 h1{
@@ -11,37 +10,37 @@ h1{
     text-align: center;
     line-height: 1.1;
     margin-bottom: 55px;
-    font-size: 45px;
+    font-size: 50px;
 }
 #name{
-    font-size: 75px;
+    font-size: 85px;
     padding-bottom: 0px;
 }
 #location{
     font-size:25px;
     opacity: 0.7;
 }
-.links{
-    text-align: center;
-}
+
 
 .contactMe{
     text-decoration: none;
-    border-radius: var(--border-radius);
+    border-radius: 5px;
     border:var(--border);
     background-color: var(--primary-color);
-    padding: 10px 4px;
+    padding: 25px 15px;
     margin: 4px;
     color:white;
+    margin-top: 90px;
 }
 .aboutMe{
     text-decoration: none;
-    border-radius: var(--border-radius);
+    border-radius: 5px;
     border:var(--border);
     color: var(--primary-color);
     padding: 5px;
     margin: 4px;
-    padding: 10px 4px;
+    padding: 25px 15px;
+    margin-top: 90px;
 }
 
 .container-fluid{
@@ -68,61 +67,80 @@ h1{
     margin-bottom: 50px;
 
 }
-#profile-pic{
-    width: 300px;
-    text-align:center ;
-}
-#aboutMeContactMe{
-    margin-top: 100px;
-}
 
-#aboutMeContactMe{
-    margin-top: 20px;
-}
-#aboutMeContactMe span{
-    font-size: 35px;
-}
-#aboutMeContactMe a{
-    text-decoration: none;
-}
 
-#selfIntroductionParagraph{
-    
-    display: flex;
-    margin: 0 auto;
-    justify-content:space-evenly;
-    max-width: 750px;
-   
-   
-    
-
+#contactMeWays{
+    position: relative;
+    list-style: none;
+    text-align: left;
+    line-height: 2.5;
+    opacity: 0.9;  
+    padding: 0;
+    margin: 0;
 }
-#selfIntroductionParagraphOne,#selfIntroductionParagraphTwo{
-    text-align:justify;
-    border: 1px solid whitesmoke;
-    background-color:rgb(213, 222, 241);
-    border-radius: 4px;
-    padding:15px 30px;
-    text-align:center;
-    
+#about{
+    text-align: left;
+    margin-right: 30px;
+}
+#contactMeWays img{
+  width: 50px; 
 }
 nav{
-   margin-top: -100px;
-
+    margin-top: -100px;
+   
 }
-.navbar-brand{
-    padding-left: 50px;
-}
-.navbar-toggler-icon{
-    display:inline-flexbox;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-position:right;
-    background-size: 100%;
+.projects{
+    font-size: 75px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    padding-top: 0px;
     
 }
+.projectsIntroduction{
+    margin-top: 0px;
+    opacity: 0.8;
+    margin-bottom: 50px;
+
+}
+.rounded {
+    border-radius: 0.25rem!important;
+}
+.p-2 {
+    padding: 0.5rem!important;
+}
+
+   
+#homeFlowerShop {
+    margin-top: 90px;
+    text-align: center;
+    
+}
+#flowerAppDescription{
+    text-align: left;
+}
+#heading{
+    font-size: 55px;
+    margin-top: -20px;
+}
+#launchButton{
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    float: left;
+    margin-top: 10px;
+    
+}
+#homeFlowerShop img{
+    text-align: right;
+    float: right;
+}
+
+
+
 
 
 
