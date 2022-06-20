@@ -110,17 +110,19 @@ nav{
 }
 
    
-#homeFlowerShop {
+#projects {
     margin-top: 90px;
     text-align: center;
     
 }
-#flowerAppDescription{
+#projectsDescription{
     text-align: left;
+    max-width: 350px;
+    margin-top: 12px;
 }
 #heading{
     font-size: 55px;
-    margin-top: -20px;
+   
 }
 #launchButton{
     border-radius: 4px;
@@ -131,10 +133,10 @@ nav{
     box-shadow: var(--box-shadow);
     color: white;
     float: left;
-    margin-top: 10px;
+    margin-top: 15px;
     
 }
-#homeFlowerShop img{
+#projects img{
     text-align: right;
     float: right;
 }
