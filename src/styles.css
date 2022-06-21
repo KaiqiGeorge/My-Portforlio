@@ -143,6 +143,52 @@ nav{
     float:left!important;
 }
 
+@media(max-width: 965px){
+    #projects img{
+        display: none;   
+    }
+    #projects {
+       text-align: center;
+       display: block;
+       margin: 20 auto;
+        
+    }
+    #projectsDescription,#weatherAppProjectsDescription{
+        text-align: center;
+        max-width: 100%;
+        margin-top: 0px;
+     
+    }
+    
+    #heading{
+        font-size: 55px;
+        margin-bottom: 5px;
+       
+    }
+    #launchButton{
+        width: 80%;
+        display: block;
+        text-align: center;
+        margin: 20px 40px 35px;
+      
+}
+#weatherAppButton{
+    text-align: center;
+}
+#projectsDisplay{
+    text-align: center;
+    margin: 10px;
+}
+#projectsDisplay img{
+    margin-top: 30px;
+    text-align: center;
+}
+
+}
+#aboutMeLocation{
+    margin-bottom: 10px;
+}
+
 
 
 
@@ -171,6 +217,9 @@ nav{
 #contactMeWays img{
   width: 50px; 
 }
+
+
+
 
 
 
