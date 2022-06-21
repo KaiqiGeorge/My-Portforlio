@@ -43,6 +43,23 @@ h1{
     padding: 25px 15px;
     margin-top: 90px;
 }
+#aboutMe{
+    margin-top: 50px !important;
+}
+#aboutMeLocation{
+    opacity: 0.9;
+    font-size: 25px;
+}
+#myProjectsHeading{
+    font-size: 80px;
+
+}
+#myProjectsH2{
+    opacity: 0.7;
+    font-size: 35px;
+
+}
+
 
 .container-fluid{
     text-align: center;
@@ -94,7 +111,9 @@ nav{
 .p-2 {
     padding: 0.5rem!important;
 }
-
+#projectsDisplay{
+    margin-top: 60px;
+}
    
 #projects {
     margin-top: 90px;
@@ -189,6 +208,7 @@ nav{
 }
 #myProjectsH2 {
     font-size:18px ;
+    opacity: 0.9;
 }
 
 }
