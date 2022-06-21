@@ -143,7 +143,7 @@ nav{
     float:left!important;
 }
 
-@media(max-width: 965px){
+@media(max-width: 1000px) {
     #projects img{
         display: none;   
     }
@@ -157,6 +157,7 @@ nav{
         text-align: center;
         max-width: 100%;
         margin-top: 0px ;
+        line-height: 2;
      
     }
     
@@ -169,7 +170,7 @@ nav{
         width: 80%;
         display: block;
         text-align: center;
-        margin: 20px 40px 35px;
+        margin: 20px 80px 40px;
       
 }
 #weatherAppButton{
@@ -182,6 +183,12 @@ nav{
 #projectsDisplay img{
     margin-top: 30px;
     text-align: center;
+}
+#myProjectsHeading{
+    font-size: 55px;
+}
+#myProjectsH2 {
+    font-size:18px ;
 }
 
 }
