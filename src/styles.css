@@ -215,6 +215,9 @@ nav{
 #aboutMeLocation{
     margin-bottom: 10px;
 }
+.navbar-nav{
+    text-align: left;
+}
 
 
 
